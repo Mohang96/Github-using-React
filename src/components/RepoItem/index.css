@@ -1,0 +1,50 @@
+.repo-item {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.avatar-container {
+  width: 20%;
+}
+
+.avatar {
+  width: 90%;
+}
+
+.repo-name {
+  color: green;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+
+.description {
+  color: darkorange;
+  font-size: 18px;
+}
+
+.repo-details-container {
+  padding-left: 20px;
+}
+
+.repo-bottom-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.count {
+  margin-right: 20px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.published-data {
+  color: darksalmon;
+  font-family: 'Roboto';
+}

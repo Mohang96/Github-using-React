@@ -1,0 +1,36 @@
+.app-background {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-responsive-background {
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .app-responsive-background {
+    width: 80%;
+  }
+}
+
+.loading-view-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.failure-view-background {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.repos-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
